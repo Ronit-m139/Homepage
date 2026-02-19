@@ -19,7 +19,7 @@
   --text:    #b8d4e0;
   --muted:   #4e6e80;
   --head:    #e4f2f8;
-  --bg:      transparent;
+  --bg:      #04090f;
   --border:  rgba(0,200,255,0.09);
   --border2: rgba(0,200,255,0.22);
   --mono:    'Space Mono', monospace;
@@ -30,7 +30,7 @@
 html, body {
   width: 100%;
   min-height: 100%;
-  background: transparent !important;
+  background: var(--bg);
   font-family: var(--body);
   color: var(--text);
   overflow-x: hidden;
